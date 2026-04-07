@@ -15,7 +15,7 @@ This project demonstrates a production-style automated workflow. It processes a 
 
 ## 📊 Pipeline Logic & Visualization
 
-### 1. Workflow Architecture (Graph View)
+### 1. Workflow Architecture 
 The pipeline follows a strict sequential dependency to ensure data integrity. Each task must succeed before the next one begins.
 
 <div align="center">
@@ -23,7 +23,7 @@ The pipeline follows a strict sequential dependency to ensure data integrity. Ea
   <p><i><b>Figure 1:</b> The Graph View showing the flow from Initialization to Email Notification.</i></p>
 </div>
 
-### 2. Execution History (Grid View)
+### 2. Execution History 
 As shown in the monitoring dashboard, the DAG maintains a consistent "Success" state across multiple scheduled intervals.
 
 <div align="center">
