@@ -19,7 +19,7 @@ This project demonstrates a production-style automated workflow. It processes a 
 The pipeline follows a strict sequential dependency to ensure data integrity. Each task must succeed before the next one begins.
 
 <div align="center">
-  <img src="PASTE_YOUR_GRAPH_VIEW_LINK_HERE" alt="Airflow Graph View" width="850">
+  <img src="images/Screenshot 2026-04-06 225040.png" alt="Airflow Graph View" width="850">
   <p><i><b>Figure 1:</b> The Graph View showing the flow from Initialization to Email Notification.</i></p>
 </div>
 
@@ -27,7 +27,7 @@ The pipeline follows a strict sequential dependency to ensure data integrity. Ea
 As shown in the monitoring dashboard, the DAG maintains a consistent "Success" state across multiple scheduled intervals.
 
 <div align="center">
-  <img src="PASTE_YOUR_GRID_VIEW_LINK_HERE" alt="Airflow Grid View Summary" width="850">
+  <img src="images/Screenshot 2026-04-06 225040.png" alt="Airflow Grid View Summary" width="850">
   <p><i><b>Figure 2:</b> The Grid View confirming 100% success rate for all task instances.</i></p>
 </div>
 
